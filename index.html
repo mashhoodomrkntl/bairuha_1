@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Elders Caring Arms</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- header section starts -->
+
+        <section id="header">
+            <div class="first-row">
+                <div class="col1">
+                    <img src="images/phone_logo.png" alt="img" />
+                    <p>Need assistance? Call us today: &nbsp; 832-270-2826</p>
+                </div>
+
+                <div class="col2">
+                    <img src="images/email_logo.png" alt="email" />
+                    <p>Email Address: &nbsp; info@heritagehomecare.net</p>
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="col1">
+                    <a href="#"> <img src="images/logo.png" alt="logo" /></a>
+                </div>
+
+                <div class="col2">
+                    <nav >
+                        <div class="nav-links" id="navLinks">
+
+                            <i class="close fa fa-close" onclick="hideMenu()"></i>
+                    
+                            <a href="#">Home</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Services</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Resources</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </nav>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- header section ends -->
+
+        <!-- hero section starts -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>
+                    Creating a Safe, Caring, and Joyful <br />
+                    Sanctuary for Seniors
+                </h1>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-img.png" alt="hero image" />
+            </div>
+            <div class="elipse1">
+                <img src="images/Ellipse 2.png" alt="" />
+            </div>
+            <div class="elipse2">
+                <img src="images/Ellipse 2.png" alt="" />
+            </div>
+        </section>
+        <!-- hero section ends -->
+
+        <!-- services section starts -->
+        
+        
+        
+        <section id="services">
+            <div class="services-content">
+                <h4>How We Meet Your Needs</h4>
+                <h1>Services We Offer</h1>
+
+                <p>Explore the wide variety of services we provide dedicated to you.</p>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="images/service_img.png" alt="services image" />
+                    <div class="content">
+                        <h5>Care and</h5>
+                        <h3>Companionship</h3>
+
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/service_img.png" alt="services image" />
+                    <div class="content">
+                        <h5>Care and</h5>
+                        <h3>Companionship</h3>
+
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-row">
+                <div class="container">
+                    <div class="Ellipse">
+                        <img src="images/Ellipse 4.png" alt="Ellipse" />
+                    </div>
+                    <div class="text">
+                        <i class="fa fa-arrow-right vector" aria-hidden="true"></i>
+                        <h4>Schedule an</h4>
+                        <h3>Assessment</h3>
+                        <p>
+                            You can take the first step <br />
+                            towards personalized care.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="Ellipse1">
+                        <img src="images/Ellipse 4.png" alt="Ellipse" />
+                    </div>
+                    <div class="text">
+                        <i class="fa fa-arrow-right vector" aria-hidden="true"></i>
+
+                        <h4>Schedule an</h4>
+                        <h3>Assessment</h3>
+                        <p>
+                            You can take the first step <br />
+                            towards personalized care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">   
+                <div class="col">      
+                    <img src="images/service_img.png" alt="services image" />
+                    <div class="content">
+                        <h5>Care and</h5>
+                        <h3>Companionship</h3>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/service_img.png" alt="services image" />
+                    <div class="content">
+                        <h5>Care and</h5>
+                        <h3>Companionship</h3>
+
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section ends -->
+
+        <script>    
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0"; 
+            }
+            function hideMenu() {
+                navLinks.style.right = "-1300px";
+            }   
+        </script>
+    </body>
+</html>
